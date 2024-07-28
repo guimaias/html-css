@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+  --font-padrao: "Montserrat";
+}
+  
+img {
+  width: 100%;
+}
+
+header {
+  background-image: url(/terrabrava/imagens/teste2.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 65px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 250px;
+}

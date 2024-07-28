@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to left, #878787,#CACACA);
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #20202257;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 1px 1px 2px #00868f2c;
+    color: #00BBC9;
+}
+
+h2 {
+    color: #00747C;
+}
+
+p {
+    text-align: justify;
+}
+
+/* Color Theme Swatches in Hex */
+.Teal-and-Gray-1-hex { color: #00747C; }
+.Teal-and-Gray-2-hex { color: #00BBC9; }
+.Teal-and-Gray-3-hex { color: #CACACA; }
+.Teal-and-Gray-4-hex { color: #878787; }
+.Teal-and-Gray-5-hex { color: #202022; }
+

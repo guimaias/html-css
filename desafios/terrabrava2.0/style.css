@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --fonte-padrao: "Montserrat";
+}
+
+.container {
+    width: 100%; /* Defina a largura do container conforme necessário */
+    text-align: center; /* Centraliza o texto horizontalmente */
+}
+
+.texto-centralizado {
+    display: inline-block; /* Faz com que o elemento ocupe apenas o espaço do conteúdo */
+    text-align: left; /* Alinha o texto à esquerda dentro do elemento */
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  background-color: #E5E0DF;
+}
+
+header {
+    box-shadow: 0px -20px 8px 20px #0b0a08;
+    margin-top: 30px;
+    background-image: url(imagens/fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 81px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 400px;
+}
+
+header h1 {
+    font-family: var(--fonte-padrao);
+    color: white;
+    font-weight: 400;
+    font-size: 60px;
+    margin-top: 55px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header p {
+    font-family: var(--fonte-padrao);
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 29px;
+    margin-bottom: 35px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+header a {
+    font-family: var(--fonte-padrao);
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 15px;
+    border-radius: 6px;
+    margin-right: auto;
+}
+
+article#cafes {
+    background-color: black;
+    color: white;
+    max-width: 850px;
+    min-width: 300px;
+    margin-top: 128px;
+    margin-bottom: 128px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 335px;
+    padding: 49.50px 63px;
+    border-radius: 10px;
+} 
+
+main > article#cafes h1 {
+    font-family: var(--fonte-padrao);
+    font-weight: normal;
+    margin-bottom: 40px;
+    font-size: 50px;
+}
+
+main h2 {
+    font-family: var(--fonte-padrao);
+    font-weight: normal;
+    margin-bottom: 20px;
+    margin-right: 40px;
+}
+main > article#cafes > aside {
+    columns: 3;
+}
+
+main > article#cafes p {
+    line-height: 30px;
+    font-family: var(--fonte-padrao);
+    font-weight: 200;
+    text-align: left;
+}
+
+#imagem {
+    background-image: url(imagens/contato.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    padding: 49.50px 63px;
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: 0px -5px 4px 1px #403a3a4d;
+
+}
+
+#imagem > aside > h1 {
+    color: white;
+    font-family: var(--fonte-padrao);
+    font-weight: 400;
+    font-size: 45px;
+    padding-top: 75px;
+    padding-left: 220px;
+}
+
+footer {
+    padding: 40px;
+    background-color: #19191A;
+}
