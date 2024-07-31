@@ -9,18 +9,23 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
 
 header {
-    height: 150px;
+    padding: 50px;
     background-color: black;
     color: white;
 }
 
 header h1 {
-    padding-top: 39px;
     text-align: center;
     font-size: 2.7em;
     font-family: "Passion One", sans-serif;
+    font-variant: small-caps;
 }
 
 header p {
@@ -28,14 +33,37 @@ header p {
 
 }
 
-header a {
+header a, footer a {
     text-decoration: none;
-    color: white;
     font-weight: bold;
+    color: white;
 }
 
-header a:hover {
+header a:hover, footer a:hover {
     text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+
+section.normal {
+    background-color: white;
+}
+
+section.imagem {
+    background-color: rgb(41, 41, 41);
+    color: white;
+}
+
+section.imagem > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.411);
+    padding: 10px;
 }
 
 
@@ -44,14 +72,4 @@ footer {
     color: white;
     padding: 5px;
     text-align: center;
-}
-
-footer a {
-    text-decoration: none;
-    font-weight: bold;
-    color: white;
-}
-
-footer a:hover {
-    text-decoration: underline;
 }
