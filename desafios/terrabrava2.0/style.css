@@ -36,7 +36,7 @@ header {
     background-image: url(imagens/fundo.jpg);
     background-size: cover;
     background-position: center;
-    padding-top: 81px;
+    padding-top: 60px;
     padding-left: 20px;
     padding-right: 20px;
     height: 400px;
@@ -77,9 +77,8 @@ article#cafes {
     background-color: black;
     color: white;
     max-width: 850px;
-    min-width: 300px;
-    margin-top: 128px;
-    margin-bottom: 128px;
+    margin-top: 30vh;
+    margin-bottom: 30vh;
     margin-left: auto;
     margin-right: auto;
     height: 335px;
@@ -122,16 +121,16 @@ main > article#cafes p {
 
 }
 
-#imagem > aside > h1 {
+
+#imagem > div h1 {
     color: white;
     font-family: var(--fonte-padrao);
     font-weight: 400;
     font-size: 45px;
     padding-top: 75px;
-    padding-left: 220px;
 }
 
 footer {
-    padding: 40px;
+    padding: 10px;
     background-color: #19191A;
 }
