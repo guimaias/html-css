@@ -2,6 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Passion+One:wght@400;700;900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+:root {
+    --font-padrao: "Sriracha", cursive;
+    --font-header: "Passion One", sans-serif;
+}
 
 * {
     margin: 0px;
@@ -23,8 +29,8 @@ header {
 
 header h1 {
     text-align: center;
-    font-size: 2.7em;
-    font-family: "Passion One", sans-serif;
+    font-size: 10vw;
+    font-family: var(--font-header);
     font-variant: small-caps;
 }
 
@@ -48,8 +54,13 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-size: 3.5vw;
 }
 
+section p 
+    {
+        font-family: var(--font-padrao);
+    }
 
 section.normal {
     background-color: white;
@@ -61,7 +72,7 @@ section.imagem {
 }
 
 section.imagem > p {
-    width: 400px;
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.411);
     padding: 10px;
 }
